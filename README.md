@@ -3,8 +3,8 @@
 1. [Overview](#overview)
 2. [The Data](#the-data)
 3. [Data Summary](#data-summary)
-4. [Portfolio Profit Analysis] (portfolio-profit-analysis)
-5. [Charge-Off Rate Analysis] (charge-off-rate-analysis)
+4. [Portfolio Profit Analysis] (#portfolio-profit-analysis)
+5. [Charge-Off Rate Analysis] (#charge-off-rate-analysis)
 
 ## Overview
 **Goals**
