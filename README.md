@@ -43,12 +43,14 @@ Anything that does not fit these four categories is marked as N/A.
 Before analysing the data, we are going to take a look at the portfolio from a birds eye view.
   
 **Credit Spread**
+
 The most important indicator of loan performance is the borrowers credit score.
 
 ![image](https://user-images.githubusercontent.com/74626307/122029842-3bb0ce80-cd9b-11eb-9394-5c9664588a8f.png)
 
 
-![Portfolio Credit Spread](https://user-images.githubusercontent.com/74626307/122030052-6b5fd680-cd9b-11eb-8d23-68c8697c5a12.png)
+![Portfolio Credit Spread](https://user-images.githubusercontent.com/74626307/122030307-a9f59100-cd9b-11eb-8122-63f68254b78a.png)
+
 
   
 The spread is average. 53% of people are in Good. Almost the equivilant is between Fair and Very Good at almost 20%. Excellent has 6.75% and poor has none. It's scewed upwards if you think Good is average.
