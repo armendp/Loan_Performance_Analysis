@@ -62,7 +62,7 @@ The most important indicator of loan performance is the borrowers credit score. 
 ![Portfolio Credit Spread](https://user-images.githubusercontent.com/74626307/122030307-a9f59100-cd9b-11eb-8122-63f68254b78a.png)
 
 
-There is a nice clean spread in the portfolio. Most of the portfolio, 53% is sits right in the middle in the Good category. An equivalent sits in the Fair and Very Good categories, cancelling eachother out. A small amount,. 6.75%, sit in the excellent category. The average FICO score in the data is 711 and the average American FICO score is 711 which puts this portfolio right in line with the national average. 
+There is a nice clean spread in the portfolio. Most of the portfolio, 53% is sits right in the middle in the Good category. An equivalent sits in the Fair and Very Good categories, cancelling eachother out. A small amount,. 6.75%, sit in the excellent category. The average FICO score in the data is 712 and the average American FICO score is 711 which puts this portfolio right in line with the national average. 
 
 
 **Term Spread**
