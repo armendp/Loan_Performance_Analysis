@@ -5,6 +5,8 @@
 3. [Data Summary](#data-summary)
 4. [Portfolio Profit Analysis](#portfolio-profit-analysis)
 5. [Charge Off Rate Analysis](#charge-off-rate-analysis)
+6. [Conclusion](#conclusion)
+7. [Sources](#sources)
 
 
 ## Overview <a name="overview"></a>
@@ -123,7 +125,7 @@ Current charge-off rate is 0.52%. According to the federal reserve, the 2020 ave
 This chart shows the projected charge-off rate if every deliquent loan charges off. We only are going out three years because 99%+ of the portfolio should be closed out by then. In Jan 2022, the deliquency rate will jump to 1.47%. In two years, it jumps to 3.13%, surpassing 2020 national average. In three years, the charge-off rate reaches 3.62%. 
 
 
-## Conclusion
+## Conclusion <a name="conclusion"></a>
 Considering the incompletness of the data, it's difficult to come to any concrete conclusions. The profit margin in Jan 2021 for this portfolio is lower than you might expect, but more information is needed before we can determine if it's abnormally lower. The low charge-off rate is a good sign, but the higher than average delinquency rate indicates that we should expect charge-off to increase in the coming years. 
 
 Additional Data Fields Needed
@@ -132,7 +134,7 @@ Additional Data Fields Needed
 - Principle paid
 
 
-## Sources
+## Sources <a name="sources"></a>
 https://www.federalreserve.gov/releases/chargeoff/chgallsa.htm
 https://www.federalreserve.gov/releases/chargeoff/delallsa.htm
 https://www.valuepenguin.com/average-credit-score
