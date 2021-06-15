@@ -3,15 +3,15 @@
 1. [Overview](#overview)
 2. [The Data](#the-data)
 3. [Data Summary](#data-summary)
-4. [Portfolio Profit Analysis] (#portfolio-profit-analysis)
-5. [Charge Off Rate Analysis] (#charge-off-rate-analysis)
+4. [Portfolio Profit Analysis](#portfolio-profit-analysis)
+5. [Charge Off Rate Analysis](#charge-off-rate-analysis)
 
 ## Overview <a name="overview"></a>
 **Goals**
 1. Provide insights into how the loans are performing
 2. Identify additional data fields needed to create a more comprehensive report
 
-## The Data <a name="the-date"></a>
+## The Data <a name="the-data"></a>
 I used the data from the Servicing Data Tape sheet in the Fintech Data Analyst Assesment excel workbook. It had 19999 records and 27 data fields for each record. First, I removed the four records with no report date. If I don't know when that data was taken, I can't use it. Next, because vital information is missing, it isn't easy to figure out what exactly is happening with all the loans.
 
 Example:
