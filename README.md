@@ -1,44 +1,14 @@
-# Loan_Performance_Analysis
+# Loan Performance Analysis
+
 1. [Overview](#overview)
 2. [The Data](#the-data)
 2. [Bro](#bro)
 
 ## Overview
+**Goals**
+1. Provide insights into how the loans are performing
+2. Identify additional data fields needed to create a more comprehensive report
 
 ## The Data
-3
-
-2
-
-2
-
-321
-
-31
-
-
-3
-
-13
-213
-
-12
-
-31
-
-23
-
-123
-12
-312
-31
-23
-123
-12
-312
-3
-12
-312
-312
 
 ## Bro
