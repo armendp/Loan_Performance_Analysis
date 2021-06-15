@@ -56,26 +56,38 @@ The most important indicator of loan performance is the borrowers credit score.
 The spread is average. 53% of people are in Good. Almost the equivilant is between Fair and Very Good at almost 20%. Excellent has 6.75% and poor has none. It's scewed upwards if you think Good is average.
  
 **Term Spread**
+
 When analyzing, we're going to thinking about timeframes and when we should expect the payments, so we take a look at the terms spread
   
-<INSERT TERMS CHART>
+ 
+![Portfolio Term Spread](https://user-images.githubusercontent.com/74626307/122030637-f3de7700-cd9b-11eb-815f-3bc41cf79f2e.png)
+
   
 It's spread nicely. <INSERT ANOTHER COMMENT>
   
   
 ## Portfolio Profit Analysis <a name="portfolio-profit-analysis"></a>
+  
 Next we're going to look at the $ invested and the profits from that investment.
 
-<INSERT TABLE WITH EXPECTED COLLECTIONS>
 
-The expected profit margin in this portfolio is 16.86%- We loaned out 24mill and expect 4mill back in interest payments on top of principle
+![Expected Collections](https://user-images.githubusercontent.com/74626307/122031050-520b5a00-cd9c-11eb-99fa-810c10b8703c.png)
+
   
-<INSERT TABLE WITH CURRENT COLLECTIONS>
+The expected profit margin in this portfolio is 16.86%- We loaned out 24mill and expect 4mill back in interest payments on top of principle
+
+
+![Current Collections](https://user-images.githubusercontent.com/74626307/122031346-9d256d00-cd9c-11eb-9eeb-40e32dd5b6f2.png)
+
  
 The data does not provide sum of all principle payments made on the loan. To find principle paid, I took the total loan amount of un-charged-off loans and subtracted ending balance of January 2021. I found current interest paid by adding up cumulated interest.
   
-<INSERT TABLE WITH BOTH COLLECTIONS>
-<INSERT GRAPH WITH BOTH COLLECTIONS>
+  
+![Expected and Current Collections](https://user-images.githubusercontent.com/74626307/122031095-5c2d5880-cd9c-11eb-87c0-541416c7b32c.png)
+
+
+![Expected and Current Collections Graph](https://user-images.githubusercontent.com/74626307/122031363-a1ea2100-cd9c-11eb-8451-d30ebb013b06.png)
+
 
 Currently, based on our collected interest we only have a 8.71% profit margin. There could be many reasons for this:
   - Abnormal amounts of prepayments
@@ -87,10 +99,14 @@ Currently, based on our collected interest we only have a 8.71% profit margin. T
 ## Charge Off Analysis <a name="charge-off-rate-analysis"></a>
 The charge-off rate is a key metric in judging the performance of a loan portfolio. The data only provides the charge-off amounts for loans charged-off in Jan 2021. For a more in-depth and exact analysis, I would need the amount charged-off for all the loans. For this data set, I estimated. If a loan had no "last pay date", I assumed that the borrower made no payments and the full amount was charged-off. If a loan had a last pay date, I'd substract payments from the total based on how many months passed between the last pay date and start date. This is a rough estimation that doesn't take into account: prepays, previously missed payments before last payment, extra interest added due to lack of payment. 
 
-<INSERT TABLE WITH CHARGE-OFF RATE AND DELIQUENCY RATE>
+
+![Charge Off and Delinquency Rate Table](https://user-images.githubusercontent.com/74626307/122032166-613ed780-cd9d-11eb-90d7-cf857d297ef5.png)
+
  
 Current charge-off rate is 0.52%. According to the federal reserve, the 2020 average charge-off rate for commercial banks is 2.5%, meaning this portfolio is performing far better than average. However, we need to take a look at the deliquency rate because today's deliquents are tommorows charged-off accounts. The portfolios deliquency rate is at 3%, above the national average of 2.5%. Next, we want to take a look at what will happen to the charge-off rate over time if every deliquent account eventually charge's off.
-  
-<INSERT CHARGE OFF RATE GRAPH>
+
+
+![Charge Off Rate Graph](https://user-images.githubusercontent.com/74626307/122032269-76b40180-cd9d-11eb-87fd-f3865b4eafb3.png)
+
   
 This chart shows the projected charge-off rate if every deliquent loan charges off. We only are going out three years because 99%+ of the portfolio should be closed out by then. In Jan 2022, the deliquency rate will jump to 1.47%. In two years, it jumps to 3.13%, surpassing 2020 national average. In three years, the charge-off rate reaches 3.62%. 
