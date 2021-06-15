@@ -6,10 +6,12 @@
 4. [Portfolio Profit Analysis](#portfolio-profit-analysis)
 5. [Charge Off Rate Analysis](#charge-off-rate-analysis)
 
+
 ## Overview <a name="overview"></a>
 **Goals**
 1. Provide insights into how the loans are performing
 2. Identify additional data fields needed to create a more comprehensive report
+
 
 ## The Data <a name="the-data"></a>
 I used the data from the Servicing Data Tape sheet in the Fintech Data Analyst Assesment excel workbook. It had 19999 records and 27 data fields for each record. First, I removed the four records with no report date. If I don't know when that data was taken, I can't use it. Next, because vital information is missing, it isn't easy to figure out what exactly is happening with all the loans.
@@ -36,6 +38,7 @@ Anything that does not fit these four categories is marked as N/A.
 
 918, or 4.59% of our data set falls into the N/A category. I'm removing these loans from the data set for my analysis because I cannot accurately figure out what is happening wtih these loans.
 
+
 ## Data Summary <a name="data-summary"></a>
 Before analysing the data, we are going to take a look at the portfolio from a birds eye view.
   
@@ -53,6 +56,7 @@ When analyzing, we're going to thinking about timeframes and when we should expe
 <INSERT TERMS CHART>
   
 It's spread nicely. <INSERT ANOTHER COMMENT>
+  
   
 ## Portfolio Profit Analysis <a name="portfolio-profit-analysis"></a>
 Next we're going to look at the $ invested and the profits from that investment.
@@ -73,6 +77,7 @@ Currently, based on our collected interest we only have a 8.71% profit margin. T
   - Could be expected numbers: low term loans finish first and they tend to payout less interest than long term loans (If provided with a database with all of the amortization schedules, I could find out exactly how much interest/principle we should have at this point)
   - Could be high deliquency and charge-off rate
 
+  
   
 ## Charge Off Analysis <a name="charge-off-rate-analysis"></a>
 The charge-off rate is a key metric in judging the performance of a loan portfolio. The data only provides the charge-off amounts for loans charged-off in Jan 2021. For a more in-depth and exact analysis, I would need the amount charged-off for all the loans. For this data set, I estimated. If a loan had no "last pay date", I assumed that the borrower made no payments and the full amount was charged-off. If a loan had a last pay date, I'd substract payments from the total based on how many months passed between the last pay date and start date. This is a rough estimation that doesn't take into account: prepays, previously missed payments before last payment, extra interest added due to lack of payment. 
