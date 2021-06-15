@@ -14,17 +14,27 @@
 ## The Data <a name="the-data"></a>
 I used the data from the Servicing Data Tape sheet in the Fintech Data Analyst Assesment excel workbook. It had 19999 records and 27 data fields for each record. First, I removed the four records with no report date. If I don't know when that data was taken, I can't use it. Next, because vital information is missing, it isn't easy to figure out what exactly is happening with all the loans.
 
-Example:
-![Loan 13](https://user-images.githubusercontent.com/74626307/122024127-24231700-cd96-11eb-82a4-454f1611fa2c.png)
+![Loan 13](https://user-images.githubusercontent.com/74626307/122025071-086c4080-cd97-11eb-9f44-2253fedfad45.png)
 
-  
+For example, loan # 13 has a 7/6/2020 start date. The lack of a payment date and cumulated interest indicates that this loan was not paid back, neither in prepayment, nor in the terms of the loan. That would make it deliquent, but The 0 days past due and $0 ending balance indicates that the loan was paid. The loan hasn't been charged-off, so it sits in limbo until I have more information on it. 
+
 I created an outline of all the possible status' that a loan can be in and how it would be indicated in the data:
   
-<INSERT TABLE WITH BREAKDOWN>
-  
-<INSERT CHART>
-  
-68% of the loans are ongoing and payments are ontime. 23% of the loans have been paid in full. 3.5% are ongoing but deliquent. 0.43% are charged off and 4.59% are N/A with no clearly identifiable status. For the purpose of this report, we are removing the 4.59% from the dataset. 
+![Loan Statuys Chart](https://user-images.githubusercontent.com/74626307/122027146-db209200-cd98-11eb-8eb8-e79faa34ea0b.png)
+
+Charged-Off (CO) is for loans that have been marked as being charged-off.
+
+Paid in Full (PIF) is for loans that have been fully paid. It is indicated by not being charged off and having $0 ending balance on Jan 2021 with a non-blank last payment date so I can confirm that the loan was paid on. Loan 13 didn't have a payment date so I was not comfortable making the assumption that it was paid in full. 
+
+Ongoing on Time (OT) is for loans that are currently active and are on time with payments as of Jan 2021. It is indicated by not being charged off, having a positive ending balance and being 0 days past due. 
+
+Ongoing Delinquent (OD) is for loans that are currently actove and are late with payments as of Jan 2021. It is indicated by not being charged off, having a positive ending balance and being more than 0 days past due.
+
+Anything that does not fit these four categories is marked as N/A.
+
+![Loan Status Bar Chart](https://user-images.githubusercontent.com/74626307/122028358-f4760e00-cd99-11eb-8b8c-db6e64ea4ab6.png)
+
+918, or 4.59% of our data set falls into the N/A category. I'm removing these loans from the data set for my analysis because I cannot accurately figure out what is happening wtih these loans.
 
 ## Data Summary <a name="data-summary"></a>
 Before analysing the data, we are going to take a look at the portfolio from a birds eye view.
