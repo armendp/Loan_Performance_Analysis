@@ -15,7 +15,8 @@
 I used the data from the Servicing Data Tape sheet in the Fintech Data Analyst Assesment excel workbook. It had 19999 records and 27 data fields for each record. First, I removed the four records with no report date. If I don't know when that data was taken, I can't use it. Next, because vital information is missing, it isn't easy to figure out what exactly is happening with all the loans.
 
 Example:
-<INSERT EXAMPLE>
+![Loan 13](https://user-images.githubusercontent.com/74626307/122024127-24231700-cd96-11eb-82a4-454f1611fa2c.png)
+
   
 I created an outline of all the possible status' that a loan can be in and how it would be indicated in the data:
   
