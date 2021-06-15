@@ -12,6 +12,11 @@
 ## Overview <a name="overview"></a>
 To ensure continuous portfolio profitability, we analyze loan data to measure current loan performance and identify any underlying risks
 
+
+![cross-river](https://user-images.githubusercontent.com/74626307/122107942-a4269c80-cde9-11eb-93b9-a01dad561fad.jpg)
+
+
+
 **Goals**
 1. Provide insights into how the loans are performing
 2. Identify additional data fields needed to create a more comprehensive report
