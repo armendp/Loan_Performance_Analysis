@@ -10,7 +10,7 @@
 
 
 ## Overview <a name="overview"></a>
-To ensure continous portfolio profitability, we analyze loan data to measure current loan performance and identify any underlying risks
+To ensure continuous portfolio profitability, we analyze loan data to measure current loan performance and identify any underlying risks
 
 **Goals**
 1. Provide insights into how the loans are performing
@@ -18,7 +18,7 @@ To ensure continous portfolio profitability, we analyze loan data to measure cur
 
 
 ## The Data <a name="the-data"></a>
-I used the data from the Servicing Data Tape sheet in the Fintech Data Analyst Assesment excel workbook. It had 19999 records and 27 data fields for each record. First, I removed the four records with no report date. The report date is the date that the data was sourced. Since the practical application of this data relies on it being sourced at a known time, I can't use the records with no report date. 
+I used the data from the Servicing Data Tape sheet in the Fintech Data Analyst Assessment excel workbook. It had 19999 records and 27 data fields for each record. First, I removed the four records with no report date. The report date is the date that the data was sourced. Since the practical application of this data relies on it being sourced at a known time, I can't use the records with no report date. 
 
 
 ![Loan 13](https://user-images.githubusercontent.com/74626307/122025071-086c4080-cd97-11eb-9f44-2253fedfad45.png)
@@ -51,7 +51,7 @@ I created an outline of all the possible statuses that a loan can be in and how 
 
 
 ## Data Summary <a name="data-summary"></a>
-Before analysing the data, we are going to take a look at the portfolio from a bird's eye view.
+Before analyzing the data, we are going to take a look at the portfolio from a bird's eye view.
 
 
 **Credit Spread**
@@ -104,7 +104,7 @@ The data analyzed does not provide the sum of principle payments made on the loa
 Currently, based on our collected interest we only have a 8.71% profit margin. There could be many reasons for this:
   - Abnormal amounts of prepayments. I would need prepayment data to figure this out. 
   - Nothing strange. Short term loans finish earlier and tend to payout less interest than long term loans. I would need a database with all the amortization schedules to find out exactly how much interest/principle should have been collected at this time.
-  - High delinquincy and charge-off rates. People might not be paying their loans. This requires further analysis. 
+  - High delinquency and charge-off rates. People might not be paying their loans. This requires further analysis. 
 
   
   
@@ -116,7 +116,7 @@ A key metric in determining loan portfolio performance is the charge-off rate. T
 ![Charge Off and Delinquency Rate Table](https://user-images.githubusercontent.com/74626307/122032166-613ed780-cd9d-11eb-90d7-cf857d297ef5.png)
 
  
-Current charge-off rate is 0.52%. According to the federal reserve, the 2020 average charge-off rate for commercial banks is 2.5%, meaning this portfolio is performing far better than average. However, we need to take a look at the delinquency rate because today's delinquents are tommorow's charged-off accounts. The portfolios delinquency rate is at 3%, above the national average of 2.5%. Next, we want to take a look at what will happen to the charge-off rate over time if every delinquent account eventually charges off.
+Current charge-off rate is 0.52%. According to the federal reserve, the 2020 average charge-off rate for commercial banks is 2.5%, meaning this portfolio is performing far better than average. However, we need to take a look at the delinquency rate because today's delinquents are tomorrow’s charged-off accounts. The portfolios delinquency rate is at 3%, above the national average of 2.5%. Next, we want to take a look at what will happen to the charge-off rate over time if every delinquent account eventually charges off.
 
 
 ![Charge Off Rate Graph](https://user-images.githubusercontent.com/74626307/122032269-76b40180-cd9d-11eb-87fd-f3865b4eafb3.png)
@@ -126,12 +126,15 @@ This chart shows the projected charge-off rate if every delinquent loan charges 
 
 
 ## Conclusion <a name="conclusion"></a>
-Considering the incompletness of the data, it's difficult to come to any concrete conclusions. The profit margin in Jan 2021 for this portfolio is lower than you might expect, but more information is needed before we can determine if it's abnormally lower. The low charge-off rate is a good sign, but the higher than average delinquency rate indicates that we should expect charge-off to increase in the coming years. 
+Considering the incompleteness of the data, it's difficult to come to any concrete conclusions. The profit margin in Jan 2021 for this portfolio is lower than you might expect, but more information is needed before we can determine if it's abnormally lower. The low charge-off rate is a good sign, but the higher than average delinquency rate indicates that we should expect charge-off to increase in the coming years. 
+
+## Next Step
 
 Additional Data Fields Needed
-- Amortizaion Schedule
-- Prepayment #'s
-- Principle paid
+- Amortization Schedule: I can use the amortization schedule to calculate percisely the amount of principle + interest the portfolio should have collected over time. 
+- Prepayment #'s: Prepayment's throw off everything. If something is prepaid, we don't get interest on it. All exact calculations require knowing what loans were prepaid and by how much.
+- Charge-Off #'s: I used a method to figure out how many dollars were charged off, but it would be better if I had the exact numbers. Additionally, if Cross River has estimates for how many delinquent accounts end up being charged-off, I could make a better charge-off estimation.  
+- Principle paid: This would help tremendously to find exactly how much principle we have collected. It will also shed light on what was going on with the loans that seemingly made no sense. 
 
 
 ## Sources <a name="sources"></a>
