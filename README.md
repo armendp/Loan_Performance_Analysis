@@ -19,8 +19,8 @@ To ensure continuous portfolio profitability, we analyze loan data to measure cu
 
 
 **Goals**
-1. Provide insights into how the loans are performing
-2. Identify additional data fields needed to create a more comprehensive report
+1. Provide insights into how the loans are performing.
+2. Identify additional data fields needed to create a more comprehensive report.
 
 
 ## The Data <a name="the-data"></a>
