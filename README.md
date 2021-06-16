@@ -149,16 +149,19 @@ Current charge-off rate is 0.52%. According to the federal reserve, the 2020 ave
 ![Charge Off Rate Graph](https://user-images.githubusercontent.com/74626307/122032269-76b40180-cd9d-11eb-87fd-f3865b4eafb3.png)
 
   
-This chart shows the projected charge-off rate if every delinquent loan charges off. In Jan 2022, the delinquency rate will jump to 1.47%. In two years, it jumps to 3.13%, surpassing 2020 national average. In three years, the charge-off rate reaches 3.62%. 
+This chart shows the projected charge-off rate if every delinquent loan charges off. In January 2022, the delinquency rate will jump to 1.47%. In two years, it jumps to 3.13%, surpassing 2020 national average. In three years, the charge-off rate reaches 3.62%. There is a high risk that this portfolio starts to charge-off more accounts and do worse than the average commercial bank. 
 
 
 ## Conclusion <a name="conclusion"></a>
-Considering the incompleteness of the data, it's difficult to come to any concrete conclusions. The profit margin in Jan 2021 for this portfolio is lower than you might expect, but more information is needed before we can determine if it's abnormally lower. The low charge-off rate is a good sign, but the higher than average delinquency rate indicates that we should expect charge-off to increase in the coming years. 
+Considering the incompleteness of the data, it's difficult to come to any concrete conclusions. 
+
+Overall, the portfolio seems to be performing poorly relative to an average portfolio. The profit margin in January 2021 for this portfolio is lower than what you would expect. With with more information, I can figure out exactly how much principle and interest the portfolio should have collected by January 2021. Still, the high prepayment rate, high delinquency rate and EXPECTED high charge-off rate indicates that this portfolio is performing poorly.
+
 
 ## Next Step
 
 Additional Data Fields Needed
-- Amortization Schedule: I can use the amortization schedule to calculate percisely the amount of principle + interest the portfolio should have collected over time. 
+- Amortization Schedule: I can use the amortization schedule to calculate percisely the amount of principle + interest the portfolio should have collected at any point.
 - Prepayment #'s: Prepayment's throw off everything. If something is prepaid, we don't get interest on it. All exact calculations require knowing what loans were prepaid and by how much.
 - Charge-Off #'s: I used a method to figure out how many dollars were charged off, but it would be better if I had the exact numbers. Additionally, if Cross River has estimates for how many delinquent accounts end up being charged-off, I could make a better charge-off estimation.  
 - Principle paid: This would help tremendously to find exactly how much principle we have collected. It will also shed light on what was going on with the loans that seemingly made no sense. 
