@@ -155,7 +155,7 @@ This chart shows the projected charge-off rate if every delinquent loan charges 
 ## Conclusion <a name="conclusion"></a>
 Considering the incompleteness of the data, it's difficult to come to any concrete conclusions. 
 
-Overall, the portfolio seems to be performing poorly relative to an average portfolio. The profit margin in January 2021 for this portfolio is lower than what you would expect. With with more information, I can figure out exactly how much principle and interest the portfolio should have collected by January 2021. Still, the high prepayment rate, high delinquency rate and EXPECTED high charge-off rate indicates that this portfolio is performing poorly.
+Overall, the portfolio seems to be performing poorly relative to an average portfolio. The profit margin in January 2021 for this portfolio is lower than what you would expect. With more information, I can figure out exactly how much principle and interest the portfolio should have collected by January 2021. Still, the high prepayment rate, high delinquency rate and EXPECTED high charge-off rate indicates that this portfolio is performing poorly.
 
 
 ## Next Step
