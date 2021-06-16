@@ -25,11 +25,11 @@ To ensure continuous portfolio profitability, we analyze loan data to measure cu
 ## The Data <a name="the-data"></a>
 I used the data from the Servicing Data Tape sheet in the Fintech Data Analyst Assessment excel workbook. It had 19999 records and 27 data fields for each record. First, I removed the four records with no report date. The report date is the date that the data was sourced. Since the practical application of this data relies on it being sourced at a known time, I can't use records with no report date. 
 
-
+Next I looked through the data and found some loan records that do not make sense:
 ![Loan 13](https://user-images.githubusercontent.com/74626307/122025071-086c4080-cd97-11eb-9f44-2253fedfad45.png)
 
 
-Next, because of some missing data fields, it's difficult to figure out exactly what is happening with every loan. For example, loan # 13 has a 7/6/2020 start date. The lack of a payment date and cumulated interest indicates that this loan was not paid back, neither in prepayment, nor in the terms of the loan. That would make it delinquent, but the 0 days past due and $0 ending balance indicates that the loan was paid. The loan hasn't been charged-off, so it sits in limbo until I have more information on it. 
+Because of some missing data fields, it's difficult to figure out exactly what is happening with this loan. Loan # 13 has a 7/6/2020 start date. The lack of a payment date and cumulated interest indicates that this loan was not paid back, neither in prepayment, nor in the terms of the loan. That would make it delinquent, but the 0 days past due and $0 ending balance indicates that the loan was paid. The loan hasn't been charged-off, so it sits in limbo until I have more information on it. 
 
 
 I created an outline of all the possible statuses that a loan can be in and how it would be indicated in the data:
