@@ -81,6 +81,8 @@ Part of this analysis is going to cover the state of the portfolio up until Jan 
  
 ![Portfolio Term Spread](https://user-images.githubusercontent.com/74626307/122030637-f3de7700-cd9b-11eb-815f-3bc41cf79f2e.png)
 
+Most of the loans are either 12 months or 24 months.
+
 
   
   
