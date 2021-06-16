@@ -101,7 +101,7 @@ In total, the portfolio's principle is $24 million. Assuming everyone paid on ti
 ![Current Collections](https://user-images.githubusercontent.com/74626307/122156587-428d1f00-ce37-11eb-8545-b74b6f2a35fa.png)
 
 
-The data analyzed does not provide the sum of principle payments made on the loans. To find principle paid, I took the total loan amount of non-charged-off loans and subtracted ending balance of January 2021. I found current interest paid by adding up cumulated interest.
+The data analyzed does not provide the sum of principle payments made on the loans. To find principle paid, I took the total loan amount of non-charged-off loans and subtracted ending balances as of January 2021. I found current interest paid by adding up cumulated interest.
   
  
  
