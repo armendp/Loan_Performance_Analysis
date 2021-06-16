@@ -26,6 +26,8 @@ To ensure continuous portfolio profitability, we analyze loan data to measure cu
 I used the data from the Servicing Data Tape sheet in the Fintech Data Analyst Assessment excel workbook. It had 19999 records and 27 data fields for each record. First, I removed the four records with no report date. The report date is the date that the data was sourced. Since the practical application of this data relies on it being sourced at a known time, I can't use records with no report date. 
 
 Next I looked through the data and found some loan records that do not make sense:
+
+
 ![Loan 13](https://user-images.githubusercontent.com/74626307/122025071-086c4080-cd97-11eb-9f44-2253fedfad45.png)
 
 
