@@ -9,7 +9,7 @@
 7. [Conclusion](#conclusion)
 8. [Sources](#sources)
 
-&nbsp  ;
+
 ## Overview <a name="overview"></a>
 To ensure continuous portfolio profitability, we analyze loan data to measure current loan performance and identify any underlying risks
 
