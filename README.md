@@ -91,7 +91,8 @@ A majority of the loans are set at either 12 or 24 month terms. Those tend to be
 It's time to look at dollars invested and the profit from those dollars. 
 
 
-![Expected Collections](https://user-images.githubusercontent.com/74626307/122031050-520b5a00-cd9c-11eb-99fa-810c10b8703c.png)
+![Expected Collections](https://user-images.githubusercontent.com/74626307/122156474-09ed4580-ce37-11eb-9d8c-f194cea8ba48.png)
+
 
 
 In total, the portfolio's principle is $24 million. Assuming everyone paid on time with no issues, the portfolio should expect to see 4 million in interest, resulting in a 16.86% profit margin.
