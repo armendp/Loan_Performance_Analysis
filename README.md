@@ -1,6 +1,6 @@
 # Loan Performance Analysis
 
-
+<ul>
 1. [Overview](#overview)
 2. [The Data](#the-data)
 3. [Data Summary](#data-summary)
@@ -9,7 +9,6 @@
 6. [Charge Off Rate Analysis](#charge-off-rate-analysis)
 7. [Conclusion](#conclusion)
 8. [Sources](#sources)
-
 
 
 ## Overview <a name="overview"></a>
