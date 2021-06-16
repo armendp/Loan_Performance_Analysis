@@ -168,8 +168,8 @@ Additional Data Fields Needed
 
 
 ## Sources <a name="sources"></a>
-https://www.federalreserve.gov/releases/chargeoff/chgallsa.htm 
-https://www.federalreserve.gov/releases/chargeoff/delallsa.htm 
+https://www.federalreserve.gov/releases/chargeoff/chgallsa.htm  
+https://www.federalreserve.gov/releases/chargeoff/delallsa.htm  
 https://www.valuepenguin.com/average-credit-score
 
 
