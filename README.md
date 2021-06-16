@@ -149,7 +149,7 @@ Current charge-off rate is 0.52%. According to the federal reserve, the 2020 ave
 ![Charge Off Rate Graph](https://user-images.githubusercontent.com/74626307/122032269-76b40180-cd9d-11eb-87fd-f3865b4eafb3.png)
 
   
-This chart shows the projected charge-off rate if every delinquent loan charges off. We only are going out three years because 99%+ of the portfolio should be closed out by then. In Jan 2022, the delinquency rate will jump to 1.47%. In two years, it jumps to 3.13%, surpassing 2020 national average. In three years, the charge-off rate reaches 3.62%. 
+This chart shows the projected charge-off rate if every delinquent loan charges off. In Jan 2022, the delinquency rate will jump to 1.47%. In two years, it jumps to 3.13%, surpassing 2020 national average. In three years, the charge-off rate reaches 3.62%. 
 
 
 ## Conclusion <a name="conclusion"></a>
