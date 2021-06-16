@@ -4,9 +4,10 @@
 2. [The Data](#the-data)
 3. [Data Summary](#data-summary)
 4. [Portfolio Profit Analysis](#portfolio-profit-analysis)
-5. [Charge Off Rate Analysis](#charge-off-rate-analysis)
-6. [Conclusion](#conclusion)
-7. [Sources](#sources)
+5. [Prepayment Analysis](#prepayment-analysis)
+6. [Charge Off Rate Analysis](#charge-off-rate-analysis)
+7. [Conclusion](#conclusion)
+8. [Sources](#sources)
 
 
 ## Overview <a name="overview"></a>
@@ -110,13 +111,29 @@ The data analyzed does not provide the sum of principle payments made on the loa
 ![Expected and Current Collections Graph](https://user-images.githubusercontent.com/74626307/122031363-a1ea2100-cd9c-11eb-8451-d30ebb013b06.png)
 
 
-Currently, based on our collected interest we only have a 8.71% profit margin. There could be many reasons for this:
-  - Abnormal amounts of prepayments. I would need prepayment data to figure this out. 
-  - Nothing strange. Short term loans finish earlier and tend to payout less interest than long term loans. I would need a database with all the amortization schedules to find out exactly how much interest/principle should have been collected at this time.
+Currently, based on our collected interest we only have a 8.71% profit margin. We've also collected 38% of our principle back but have only collected 19% of the interest expected. There could be many reasons for this:
+  - Expected result. Short term loans finish earlier and tend to payout less interest than long term loans. 
+  - Abnormal amounts of prepayments. I would need prepayment data to get exact figures, but I will do a rough estimation based on the given data. 
   - High delinquency and charge-off rates. People might not be paying their loans. This requires further analysis. 
 
   
-  
+## Prepayment Analysis <a name="prepayment-analysis"></a>
+
+While there is no way to know exactly the dollar amount of prepayments with the given data, we can get a rough estimation by comparing the expected paid in full accounts to the actual paid in full accounts. We're going to bring back the loan status chart, take out the N/A's and show it as a percentage of the whole.
+
+
+![Loan Status 2](https://user-images.githubusercontent.com/74626307/122155649-67809280-ce35-11eb-8d38-1ae168ce9cfe.png)
+
+
+As of January 2021, 24.31% of the loans in the portfolio are paid in full. Since we have the start date and term numbers, we can map out how many loans in the portfolio we expect to be completely paid at any time.
+
+
+![Percent Loans Completed](https://user-images.githubusercontent.com/74626307/122155874-d8c04580-ce35-11eb-861e-8fde9a1a5e48.png)
+
+
+As of January 2021, only 6.07% of the loans should be paid in full. This means that this portfolio is suffering from a lot of prepayment issues which could explain the gap between principle collected and interest collected. 
+
+
 ## Charge Off Analysis <a name="charge-off-rate-analysis"></a>
 
 A key metric in determining loan portfolio performance is the charge-off rate. The given data only provides the charge-off amounts for loans charged-off in Jan 2021. For a more in-depth and exact analysis, I would need the charge-off amounts for all the charge-off loans. For this analysis, I estimated. If a charged-off loan had no "last pay date", I assumed that the borrower made no payments and the full amount was charged-off. If a charged-off loan had a last pay date, I'd subtract payments from the total based on how many months passed between the last pay date and start date. This is a rough estimation that doesn't take into account: prepays, previously missed payments before last payment, extra interest added due to lack of payment. 
