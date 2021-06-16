@@ -98,12 +98,15 @@ It's time to look at dollars invested and the profit from those dollars.
 In total, the portfolio's principle is $24 million. Assuming everyone paid on time with no issues, the portfolio should expect to see 4 million in interest, resulting in a 16.86% profit margin.
 
 
-![Current Collections](https://user-images.githubusercontent.com/74626307/122031346-9d256d00-cd9c-11eb-9eeb-40e32dd5b6f2.png)
+![Current Collections](https://user-images.githubusercontent.com/74626307/122156587-428d1f00-ce37-11eb-8545-b74b6f2a35fa.png)
+
 
 The data analyzed does not provide the sum of principle payments made on the loans. To find principle paid, I took the total loan amount of non-charged-off loans and subtracted ending balance of January 2021. I found current interest paid by adding up cumulated interest.
   
-  
-![Expected and Current Collections](https://user-images.githubusercontent.com/74626307/122031095-5c2d5880-cd9c-11eb-87c0-541416c7b32c.png)
+ 
+ 
+![Expected and Current Collections](https://user-images.githubusercontent.com/74626307/122156597-47ea6980-ce37-11eb-8470-ead1fcb0a351.png)
+
 
 
 ![Expected and Current Collections Graph](https://user-images.githubusercontent.com/74626307/122031363-a1ea2100-cd9c-11eb-8451-d30ebb013b06.png)
