@@ -79,15 +79,12 @@ There is a nice clean spread in the portfolio. Most of the portfolio (53%) sits 
 
 **Term Spread**
 
-Part of this analysis is going to cover the state of the portfolio up until Jan 2021. We're going to look at the term spread of the portfolio before diving deeper. 
   
- 
 ![Portfolio Term Spread](https://user-images.githubusercontent.com/74626307/122030637-f3de7700-cd9b-11eb-815f-3bc41cf79f2e.png)
 
-Most of the loans are either 12 months or 24 months.
+A majority of the loans are set at either 12 or 24 month terms. Those tend to be the most common. Otherwise, the terms are spread out without any abnormalities. 
 
 
-  
   
 ## Portfolio Profit Analysis <a name="portfolio-profit-analysis"></a>
   
