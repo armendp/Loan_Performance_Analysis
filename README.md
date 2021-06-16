@@ -1,6 +1,5 @@
 # Loan Performance Analysis
 
-<ul>
 1. [Overview](#overview)
 2. [The Data](#the-data)
 3. [Data Summary](#data-summary)
@@ -10,7 +9,7 @@
 7. [Conclusion](#conclusion)
 8. [Sources](#sources)
 
-
+&nbsp
 ## Overview <a name="overview"></a>
 To ensure continuous portfolio profitability, we analyze loan data to measure current loan performance and identify any underlying risks
 
