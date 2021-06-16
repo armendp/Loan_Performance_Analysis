@@ -45,7 +45,7 @@ I created an outline of all the possible statuses that a loan can be in and how 
 
 **Paid in Full (PIF)** is for loans that have been fully paid. It is indicated by not being charged off and having $0 ending balance on Jan 2021 with a non-blank last payment date so I can confirm that the loan was paid on. Loan 13 didn't have a payment date so I was not comfortable making the assumption that it is paid in full. 
 
-**Ongoing on Time (OT)** is for loans that are currently active and are on time with payments as of Jan 2021. It is indicated by not being charged off, having a positive ending balance and being 0 days past due. 
+**Ongoing on Time (OOT)** is for loans that are currently active and are on time with payments as of Jan 2021. It is indicated by not being charged off, having a positive ending balance and being 0 days past due. 
 
 **Ongoing Delinquent (OD)** is for loans that are currently active and are late with payments as of Jan 2021. It is indicated by not being charged off, having a positive ending balance and being more than 0 days past due.
 
